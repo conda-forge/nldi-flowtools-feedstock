@@ -1,5 +1,5 @@
 {% set name = "nldi-flowtools" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nldi_flowtools-{{ version }}.tar.gz
-  sha256: 758b62e16c088e9c4d52340c0900155a95545dd51bc55ff1a65a1f11a35646c5
+  sha256: 6cf1c65c726fdbe58a2fbfb3ff5aad04bb98ab5098e43664b3802bfeb5b994cc
 
 build:
   entry_points:
